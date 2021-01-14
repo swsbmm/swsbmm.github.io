@@ -52,7 +52,7 @@ header .header-icons-conteiner .icons span{
 
 nav {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     height: 90px;
 }
 
@@ -61,7 +61,7 @@ nav .nav-logo-conteiner {
 }
 
 nav .nav-logo-conteiner img{
-    width: 80px;
+    width: 50px;
     margin-top: 10px;
 }
 
@@ -69,14 +69,16 @@ nav .profile-link {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-right: 50px;
 }
+
+
 
 
 
 nav .profile-link a {
     color: #8c93b1k ;
     border-bottom: 1px solid #8c93b1;
+    margin: 20px
 }
 
 
@@ -131,7 +133,7 @@ nav .profile-link a {
 }
 
 .blogs-news-container {
-    background-color: #8c93b1;
+    background-color: #dfe3e9;
     padding: 0px 50px 40px;
 }
 
